@@ -1,0 +1,27 @@
+*{margin:0;padding:0;-webkit-tap-highlight-color: transparent;}
+body{
+    font-family:'microsoft yahei';
+}
+a{
+    text-decoration: none;
+    color:#333;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    -webkit-user-select: none;
+    -moz-user-focus: none;
+    -moz-user-select: none;
+}
+.l{float:left;}
+.r{float:right;}
+.textcenter{text-align:center;}
+li{list-style-type:none;}
+em{font-style:normal}
+.block{display:block;}
+.none{display:none;}
+.border3{border-radius:3px;}
+.border5{border-radius:3px;}
+.mrw10{margin-right:10px;}
+.miw10{margin-left:10px;}
+.mrw15{margin-right:15px;}
+.miw15{margin-left:15px;}
+.mrw20{margin-right:20px;}
+.mlw20{margin-left:20px;}
