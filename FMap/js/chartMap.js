@@ -1,13 +1,7 @@
-
- 
-
- 
-
-
 var allData = {
 	citys: [{
 			"name": "A",
-			"value": [114.057868, 22.543099, 14],
+			"value": [116.27030 , 41.03916, 14],
 			"symbolSize": 2,
 			"itemStyle": {
 				"normal": {
@@ -17,8 +11,8 @@ var allData = {
 		},
 		
 		{
-			name: "A",
-			value: [121.473701, 31.410416, 14],
+			// name: "A",
+			value: [121.473701, 31.310416, 14],
 			symbolSize: 2,
 			itemStyle: {
 				normal: {
@@ -28,8 +22,8 @@ var allData = {
 		},
 		
 		{
-			"name": "B",
-			"value": [104.066541, 30.572269, 1],
+			// "name": "B",
+			"value": [121.473701, 31.310416, 1],
 			"symbolSize": 2,
 			"itemStyle": {
 				"normal": {
@@ -39,7 +33,7 @@ var allData = {
 		},
 		{
 			"name": "B",
-			"value": [102.71642, 25.05156, 14],
+			"value": [103.71642, 23.75156, 14],
 			"symbolSize": 2,
 			"itemStyle": {
 				"normal": {
@@ -69,18 +63,8 @@ var allData = {
 		// 	}
 		// },
 		{
-			name: 'D',
-			value: [123.42944, 41.835441, -58],
-			symbolSize: 2,
-			itemStyle: {
-				normal: {
-					color: '#58B3CC'
-				}
-			},
-		},
-		{
 			"name": "D",
-			"value": [87.41603, 43.47708, 14],
+			"value": [93.41603, 34.97708, 14],
 			symbolSize: 2,
 			"itemStyle": {
 				"normal": {
@@ -102,7 +86,7 @@ var allData = {
 		// },
 		{
 			"name": "E",
-			"value": [102.71642, 25.05156, 14],
+			"value": [103.71642, 23.75156, 14],
 			symbolSize: 2,
 			"itemStyle": {
 				"normal": {
@@ -113,7 +97,7 @@ var allData = {
 		
 		{
 			"name": "F",
-			"value": [115.858198, 28.682892, 2],
+			"value": [112.958198, 28.682892, 2],
 			"symbolSize": 2,
 			"itemStyle": {
 				"normal": {
@@ -123,8 +107,8 @@ var allData = {
 		},
 		
 		{
-			"name": "F",
-			"value": [91.117212, 29.646923, -1],
+			"name": "E",
+			"value": [102.473701, 30.810416, -1],
 			"symbolSize": 2,
 			"itemStyle": {
 				"normal": {
@@ -134,7 +118,7 @@ var allData = {
 		},
 		{
 			name: 'G',
-			value: [116.23128, 40.22077, -14],
+			value: [113.63128, 34.72077, -14],
 			symbolSize: 2,
 			itemStyle: {
 				normal: {
@@ -143,8 +127,8 @@ var allData = {
 			},
 		},
 		{
-			name: 'G',
-			value: [101.76628, 36.6502, -14],
+			name: 'C',
+			value: [90.76628, 41.6502, -14],
 			symbolSize: 2,
 			itemStyle: {
 				normal: {
@@ -173,20 +157,11 @@ var allData = {
 		// 	}
 		// },
 		
-		{
+		{			
+
 			"name": "I",
-			"value": [120.21201, 30.2084, 14],
+			"value": [114.057868, 22.543099, 14],
 			symbolSize: 2,
-			"itemStyle": {
-				"normal": {
-					"color": "#58B3CC"
-				}
-			}
-		},
-		{
-			"name": "I",
-			"value": [114.307868, 23.543099, 14],
-			symbolSize: 0.000001,
 			"itemStyle": {
 				"highlight": {
 					"color": "#FFFF00"					
@@ -194,116 +169,217 @@ var allData = {
 			}
 		},
 		
-		{
-			"name": "J",
-			"value": [117.27030 , 39.03916, 14],
-			symbolSize: 2,
-			"itemStyle": {
-				"normal": {
-					"color": "#58B3CC"
-				}
-			}
-		},
-		{
-			"name": "J",
-			"value": [113.36649 , 23.41817, 14],
-			symbolSize: 2,
-			"itemStyle": {
-				"normal": {
-					"color": "#58B3CC"
-				}
-			}
-		},
 	],
 	moveLines: [
 		/// AAAA
 		{
-			fromName: 'Shenzhen-A',
-			toName: 'Shenzhen-A',
+			fromName: 'Shanghai',
+			toName: 'Beijing',
 			coords: [
-				[121.473701, 31.410416],
+				[121.473701, 31.310416],
+				[116.27030 , 41.03916]
+			],
+		},
+		{
+			fromName: 'Shanghai',
+			toName: 'Beijing',
+			coords: [
+				[121.473701, 31.310416],
+				[116.27030 , 41.03916]
+			],
+		},
+		{
+			fromName: 'Shanghai',
+			toName: 'Beijing',
+			coords: [
+				[121.473701, 31.310416],
+				[116.27030 , 41.03916]
+			],
+		},
+		{
+			fromName: 'Shanghai',
+			toName: 'Beijing',
+			coords: [
+				[121.473701, 31.310416],
+				[116.27030 , 41.03916]
+			],
+		},
+		{
+			fromName: 'Shanghai',
+			toName: 'Beijing',
+			coords: [
+				[121.473701, 31.310416],
+				[116.27030 , 41.03916]
+			],
+		},
+
+		{
+			fromName: 'Shanghai',
+			toName: 'Beijing',
+			coords: [
+				[121.473701, 31.310416],
+				[116.27030 , 41.03916]
+			],
+		},
+
+		/// IIII
+		{
+			fromName: 'Shanghai',
+			toName: 'Shenzhen',
+			coords: [
+				[121.473701, 31.310416],
 				[114.057868, 22.543099]
 			],
 		},
-		//// BBBB
 		{
-			fromName: 'ChengDu-B',
-			toName: 'Kunming',
+			fromName: 'Shanghai',
+			toName: 'Shenzhen',
 			coords: [
-				[104.066541, 30.572269],
-				[102.71642, 25.05156]
+				[121.473701, 31.310416],
+				[114.057868, 22.543099]
 			],
 		},
-		/// CCCC
-		// {
-		// 	fromName: '重庆',
-		// 	toName: '河北',
-		// 	coords: [
-		// 		[106.50249 , 29.59763],
-		// 		[114.55260 , 38.04829]
-		// 	],
-		// },
-		/// DDDD
 		{
-			fromName: '乌鲁木齐',
-			toName: '辽宁',
+			fromName: 'Shanghai',
+			toName: 'Shenzhen',
 			coords: [
-				[87.41603, 43.47708],
-				[123.42944, 41.835441]
+				[121.473701, 31.310416],
+				[114.057868, 22.543099]
 			],
 		},
-		// /// EEE
-		// {
-		// 	fromName: '云南',
-		// 	toName: '山西',
-		// 	coords: [
-		// 		[102.71642, 25.05156],
-		// 		[112.548879, 37.87059]
-		// 	],
-		// },
+		{
+			fromName: 'Shanghai',
+			toName: 'Shenzhen',
+			coords: [
+				[121.473701, 31.310416],
+				[114.057868, 22.543099]
+			],
+		},
+		{
+			fromName: 'Shanghai',
+			toName: 'Shenzhen',
+			coords: [
+				[121.473701, 31.310416],
+				[114.057868, 22.543099]
+			],
+		},
+		{
+			fromName: 'Shanghai',
+			toName: 'Shenzhen',
+			coords: [
+				[121.473701, 31.310416],
+				[114.057868, 22.543099]
+			],
+		},
+
 		/// FFF
 		{
-			fromName: '西藏',
-			toName: '南昌',
+			fromName: 'Shanghai2',
+			toName: 'Jiangxi',
 			coords: [
-				[91.117212, 29.646923],
-				[115.858198, 28.682892]
+				[121.473701, 31.310416],
+				[112.958198, 28.682892]
+			],
+		},
+		{
+			fromName: 'Shanghai2',
+			toName: 'Jiangxi',
+			coords: [
+				[121.473701, 31.310416],
+				[112.958198, 28.682892]
 			],
 		},
 		/// GGG
 		{
-			fromName: '北京',
-			toName: '西宁',
+			fromName: 'Shanghai2',
+			toName: 'henan',
 			coords: [
-				[116.23128, 40.22077],
-				[101.76628, 36.6502]
+				[121.473701, 31.310416],
+				[113.63128, 34.72077]
 			],
 		},
-		// /// HHH
-		// {
-		// 	fromName: '哈尔滨',
-		// 	toName: '南宁',
-		// 	coords: [
-		// 		[126.95717, 45.54774],
-		// 		[108.27331, 22.78121]
-		// 	],
-		// },
-		/// IIII
 		{
-			fromName: '杭州',
-			toName: '广州',
+			fromName: 'Shanghai2',
+			toName: 'henan',
 			coords: [
-				[120.21201, 30.2084],
-				[114.057868, 22.543099]
+				[121.473701, 31.310416],
+				[113.63128, 34.72077]
 			],
 		},
-		/// JJJ
+		//// xinjiang
+	
 		{
-			fromName: '北京1',
-			toName: '广州',
+			fromName: 'Shanghai3',
+			toName: 'xinjiang',
 			coords: [
-				[117.27030 , 39.03916],
-				[113.36649 , 23.41817]
+				[121.473701, 31.310416],
+				[90.76628, 41.6502]
+			],
+		},
+
+
+
+
+		//// BBBB
+		{
+			fromName: 'Shanghai1',
+			toName: 'Kunming',
+			coords: [
+				[121.473701, 31.310416],
+				[103.71642, 23.75156]
+			],
+		},
+		{
+			fromName: 'Shanghai1',
+			toName: 'Kunming',
+			coords: [
+				[121.473701, 31.310416],
+				[103.71642, 23.75156]
+			],
+		},
+		{
+			fromName: 'Shanghai1',
+			toName: 'Kunming',
+			coords: [
+				[121.473701, 31.310416],
+				[103.71642, 23.75156]
+			],
+		},
+
+		//// BBBB
+		{
+			fromName: 'Shanghai3',
+			toName: 'qinghai',
+			coords: [
+				[121.473701, 31.310416],
+				[93.41603, 34.97708]
+			],
+		},
+
+
+		//// BBBB
+		{
+			fromName: 'Shanghai1',
+			toName: 'chengdu',
+			coords: [
+				[121.473701, 31.310416],
+				[102.473701, 30.810416]
+			],
+		},
+		{
+			fromName: 'Shanghai1',
+			toName: 'chengdu',
+			coords: [
+				[121.473701, 31.310416],
+				[102.473701, 30.810416]
+			],
+		},
+		{
+			fromName: 'Shanghai1',
+			toName: 'chengdu',
+			coords: [
+				[121.473701, 31.310416],
+				[102.473701, 30.810416]
 			],
 		},
 	],
@@ -378,106 +454,53 @@ var colorList = [
 //动态数据
 allData.moveLines.forEach((item) => {
 	var fromName = item.fromName
-	if (fromName == 'Shenzhen-A') {
+	if (fromName == 'Shanghai') {
 		item.lineStyle = {
 			width: 2,
 			color: 'hsl(181 100% 79% / 1)',
 		}
 		item.effect = {
-			constantSpeed: 110,
+			constantSpeed: 150,
 			symbolSize: 12,
 		}
-	} else if (fromName == 'ChengDu-B') {
+	} else if (fromName == 'Shanghai1') {
 		item.lineStyle = {
 			width: 2,
 			color: 'hsl(181 60% 79% / 1)',
 		}
 		item.effect = {
-			constantSpeed: 30,
+			constantSpeed: 70,
 			symbolSize: 12,
 		}
-	// } else if (fromName == '重庆') {
-	// 	item.lineStyle = {
-	// 		width: 2,
-	// 		color: 'hsl(181 60% 79% / 1)',
-	// 	}
-	// 	item.effect = {
-	// 		constantSpeed: 25,
-	// 		symbolSize: 12,
-	// 	}
-	} else if (fromName == '乌鲁木齐') {
-		item.lineStyle = {
-			width: 2,
-			color: 'hsl(181 20% 79% / 1)',
-		}
-		item.effect = {
-			constantSpeed: 13,
-			symbolSize: 12,
-		}
-	// } else if (fromName == '云南') {
-	// 	item.lineStyle = {
-	// 		width: 2,
-	// 		color: 'hsl(181 60% 79% / 1)',
-	// 	}
-	// 	item.effect = {
-	// 		constantSpeed: 180,
-	// 		symbolSize: 12,
-	// 	}
-	} else if (fromName == '西藏') {
-		item.lineStyle = {
-			width: 2,
-			color: 'hsl(181 20% 79% / 1)',
-		}
-		item.effect = {
-			constantSpeed: 13,
-			symbolSize: 12,
-		}
-	} else if (fromName == '云南') {
-		item.lineStyle = {
-			width: 2,
-			color: 'hsl(181 40% 79% / 1)',
-		}
-		item.effect = {
-			constantSpeed: 75,
-			symbolSize: 12,
-		}
-	// } else if (fromName == '哈尔滨') {
-	// 	item.lineStyle = {
-	// 		width: 2,
-	// 		color: 'hsl(181 20% 79% / 1)',
-	// 	}
-	// 	item.effect = {
-	// 		constantSpeed: 13,
-	// 		symbolSize: 12,
-	// 	}
-	} else if (fromName == '杭州') {
-		item.lineStyle = {
-			width: 2,
-			color: 'hsl(181 80% 79% / 1)',
-		}
-		item.effect = {
-			constantSpeed: 30,
-			symbolSize: 12,
-		}
-	} else if (fromName == '北京1') {
+
+	} else if (fromName == 'Shanghai2') {
 		item.lineStyle = {
 			width: 2,
 			color: 'hsl(181 100% 79% / 1)',
 		}
 		item.effect = {
-			constantSpeed: 110,
+			constantSpeed: 40,
 			symbolSize: 12,
 		}
-	}
-	else if (fromName == '北京') {
+	} else if (fromName == 'Shanghai3') {
 		item.lineStyle = {
 			width: 2,
-			color: 'hsl(181 40% 79% / 1)',
+			color: 'hsl(181 100% 79% / 1)',
 		}
 		item.effect = {
-			constantSpeed: 13,
+			constantSpeed: 25,
 			symbolSize: 12,
 		}
+	} else if (fromName == 'test') {
+		item.lineStyle = {
+			width: 2,
+			color: 'rgba(148, 253, 255, 1)',
+		}
+		item.effect = {
+			constantSpeed: 15,
+			symbolSize: 12,
+		}
+
 	}
 })
 option8 = {

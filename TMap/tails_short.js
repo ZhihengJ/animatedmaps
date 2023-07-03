@@ -215,7 +215,7 @@ var geo = new Loca.GeoJSONSource({
 			        ]
 			    }
 			},
-			//Germany-Hungary
+			//Germany-UK
 			{
 			    "type": "Feature",
 			    "properties": {
